@@ -2,7 +2,7 @@
 
 ### In-Progress...
 
-A Tac_Tac_Toe game using a custom graphic API that i am developing. 
+A Tac_Tac_Toe game build with my custom graphic library utilizing the newly added networking capability. 
 
 ## Features: 
  - 1v1 (player v.s player) mode : local.
