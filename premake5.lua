@@ -38,16 +38,16 @@ project "Tic_Tac_Toe_Client"
     includedirs
     {
         "%{wks.location}/%{prj.name}/src",
-        "%{wks.location}/vendor/Tiny/includes",
-        "%{wks.location}/vendor/Tiny/vendor/spdlog/include",
-        "%{wks.location}/vendor/Tiny/vendor/ImGui",
-        "%{wks.location}/vendor/Tiny/vendor/glm/include",
-        "%{wks.location}/vendor/Tiny/vendor/asio-1.18.0/include"
+        "%{wks.location}/vendor/Tiny_v0.1/includes",
+        "%{wks.location}/vendor/Tiny_v0.1/vendor/spdlog/include",
+        "%{wks.location}/vendor/Tiny_v0.1/vendor/ImGui",
+        "%{wks.location}/vendor/Tiny_v0.1/vendor/glm/include",
+        "%{wks.location}/vendor/Tiny_v0.1/vendor/asio-1.18.0/include"
     }
 
     libdirs 
     { 
-        "%{wks.location}/vendor/Tiny/libs",
+        "%{wks.location}/vendor/Tiny_v0.1/libs",
     }
 
     links {
@@ -99,16 +99,16 @@ project "Tic_Tac_Toe_Server"
     includedirs
     {
         "%{wks.location}/%{prj.name}/src",
-        "%{wks.location}/vendor/Tiny/includes",
-        "%{wks.location}/vendor/Tiny/vendor/spdlog/include",
-        "%{wks.location}/vendor/Tiny/vendor/ImGui",
-        "%{wks.location}/vendor/Tiny/vendor/glm/include",
-        "%{wks.location}/vendor/Tiny/vendor/asio-1.18.0/include"
+        "%{wks.location}/vendor/Tiny_v0.1/includes",
+        "%{wks.location}/vendor/Tiny_v0.1/vendor/spdlog/include",
+        "%{wks.location}/vendor/Tiny_v0.1/vendor/ImGui",
+        "%{wks.location}/vendor/Tiny_v0.1/vendor/glm/include",
+        "%{wks.location}/vendor/Tiny_v0.1/vendor/asio-1.18.0/include"
     }
 
     libdirs 
     { 
-        "%{wks.location}/vendor/Tiny/libs",
+        "%{wks.location}/vendor/Tiny_v0.1/libs",
     }
 
     links {
