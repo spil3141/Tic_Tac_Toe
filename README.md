@@ -1,11 +1,13 @@
-# FlappyBird_Clone
-A flappy bird clone. 
+# Tic_Tac_Toe 
 
-# APIs, Specifications, and etc.
-- Graphic API and others (OpenGL Specification, GLFW and Glad) 
-- UI ( ImGui)
-- Debugging, Logging (spdlog)
-- Mathematics- vectors, matrices and transformation (OpenGL Mathematics or GLM) 
+### In-Progress...
+
+A Tac_Tac_Toe game build with my custom graphic library utilizing the newly added networking capability. 
+
+## Features: 
+ - 1v1 (player v.s player) mode : local.
+ - 1v1 (player v.s player) mode : Networked using the ASIO library. 
+
 
 # How to use
 ## For Windows Only
