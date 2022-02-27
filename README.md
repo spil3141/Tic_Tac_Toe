@@ -2,7 +2,7 @@
 
 ### In-Progress...
 
-A Tac_Tac_Toe game build with my custom graphic library utilizing the newly added networking capability. 
+A tic_tac_toe game made for desktop platform using c++ OpenGL to play with friends over a local network.
 
 ## Features: 
  - PVP local (player v.s player) mode : local.
