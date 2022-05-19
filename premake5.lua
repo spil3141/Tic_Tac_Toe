@@ -50,6 +50,11 @@ project "Tic_Tac_Toe_Client"
         "%{wks.location}/vendor/Tiny_v0.1/libs",
     }
 
+    postbuildcommands 
+	{
+		'{COPY} "%{wks.location}/%{prj.name}/res" "%{cfg.targetdir}/res"'
+	}
+
     links {
         "Tiny",
         "Glad",
@@ -110,6 +115,11 @@ project "Tic_Tac_Toe_Server"
     { 
         "%{wks.location}/vendor/Tiny_v0.1/libs",
     }
+
+    postbuildcommands 
+	{
+		'{COPY} "%{wks.location}/%{prj.name}/res" "%{cfg.targetdir}/res"'
+	}
 
     links {
         "Tiny",
